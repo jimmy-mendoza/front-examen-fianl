@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "tailwind-animations";
+
+:root {
+    font-family: Arial, "Segoe UI", sans-serif;
+    color: #1e293b;
+    background: #fafaf9;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+body { margin: 0; min-width: 320px; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+dialog::backdrop { background: rgb(15 23 42 / 75%); backdrop-filter: blur(3px); }
